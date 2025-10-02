@@ -13,7 +13,7 @@ import os
 import pandas as pd
 
 # Mostrar logo
-st.image("logo.gif", use_container_width=True)
+st.image("lobo.jpg", use_container_width=True)
 
 # Título
 st.title("Reconocimiento de números escritos a mano - Manuel Orlando Alvarez Beltran 2025")
@@ -47,7 +47,7 @@ if not all([modelo_d1, modelo_c2, modelo_c3]):
 st.subheader("🖌️ Dibuja un número")
 canvas_result = st_canvas(
     fill_color="white",
-    stroke_width=10,
+    stroke_width=12,
     stroke_color="black",
     background_color="white",
     height=280,
