@@ -13,7 +13,7 @@ import os
 import pandas as pd
 
 # Mostrar logo
-st.image("lobo.jpg", use_container_width=True)
+st.image("Logonuevo.jpg", use_container_width=True)
 
 # Título
 st.title("Reconocimiento de números escritos a mano - Manuel Orlando Alvarez Beltran 2025")
